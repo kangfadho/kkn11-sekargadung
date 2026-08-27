@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import fotoFadho from '../assets/anggota/fadho.jpg'
 
 export default function Anggota() {
   const [filter, setFilter] = useState('Semua')
@@ -46,16 +47,17 @@ export default function Anggota() {
     {
       nama: "Muhammad Muhafadhoh",
       nim: "2412110086",
-      prodi: "Informatika (IF)",
+      prodi: "Teknik Informatika (IF)",
       peran: "Bidang Teknologi Tepat Guna",
       divisi: "-",
       kategori: "Bidang",
-      avatarSeed: "Fadho"
+      avatarSeed: "Fadho",
+      foto: fotoFadho
     },
     {
       nama: "Tsabita Nur Azmi Atiantoro",
       nim: "2412110087",
-      prodi: "Informatika (IF)",
+      prodi: "Teknik Informatika (IF)",
       peran: "Bidang Teknologi Tepat Guna",
       divisi: "-",
       kategori: "Bidang",
@@ -86,7 +88,7 @@ export default function Anggota() {
     {
       nama: "Fatkhur Rohma",
       nim: "2411110138",
-      prodi: "Teknik Informatika (TI)",
+      prodi: "Teknik Industri (TI)",
       peran: "Bidang Lingkungan & Kesehatan",
       divisi: "Koor. Humas",
       kategori: "Bidang",
@@ -95,7 +97,7 @@ export default function Anggota() {
     {
       nama: "Alfian Abdullah Maulana",
       nim: "2311110050",
-      prodi: "Teknik Informatika (TI)",
+      prodi: "Teknik Industri (TI)",
       peran: "Bidang Lingkungan & Kesehatan",
       divisi: "Koor. Keamanan",
       kategori: "Bidang",
@@ -135,7 +137,7 @@ export default function Anggota() {
     {
       nama: "A Labib Patriyatin Najib",
       nim: "2412110088",
-      prodi: "Informatika (IF)",
+      prodi: "Teknik Informatika (IF)",
       peran: "Bidang Keagamaan",
       divisi: "-",
       kategori: "Bidang",
@@ -146,7 +148,7 @@ export default function Anggota() {
     {
       nama: "Ahmad Hamdi Maslah",
       nim: "2411110136",
-      prodi: "Teknik Informatika (TI)",
+      prodi: "Teknik Industri (TI)",
       peran: "Bidang Organisasi & Kepemudaan",
       divisi: "Koor. Perkab",
       kategori: "Bidang",
@@ -155,7 +157,7 @@ export default function Anggota() {
     {
       nama: "Muhammad Agung Khoirul Yani",
       nim: "2411110133",
-      prodi: "Teknik Informatika (TI)",
+      prodi: "Teknik Industri (TI)",
       peran: "Bidang Organisasi & Kepemudaan",
       divisi: "-",
       kategori: "Bidang",
@@ -208,10 +210,10 @@ export default function Anggota() {
               className="p-6 bg-[#FAF8F5] border border-stone-200/80 rounded-2xl hover:border-[#8B5E3C]/40 hover:shadow-md transition-all flex flex-col items-center text-center"
             >
               <img
-                src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${item.avatarSeed}`}
-                alt={item.nama}
-                className="w-20 h-20 rounded-full bg-stone-200 border-2 border-[#8B5E3C]/30 mb-4 p-1 object-cover"
-              />
+  src={item.foto ? item.foto : `https://api.dicebear.com/7.x/avataaars/svg?seed=${item.avatarSeed}`}
+  alt={item.nama}
+  className="w-20 h-20 rounded-full bg-stone-200 border-2 border-[#8B5E3C]/30 mb-4 p-1 object-cover"
+/>
               
               <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-[#4A6B3C]/10 text-[#4A6B3C] border border-[#4A6B3C]/20 mb-2">
                 {item.peran}
