@@ -2,6 +2,11 @@ import { useState } from 'react'
 import fotoFadho from '../assets/anggota/fadho.jpg'
 import fotoUsman from '../assets/anggota/usman.jpeg'
 import fotoAfiq1 from '../assets/anggota/afiq1.jpeg'
+import fotoDimas from '../assets/anggota/dimas.jpeg'
+import fotoAgung from '../assets/anggota/agung.jpeg'
+import fotoFathur from '../assets/anggota/fathur.jpeg'
+import fotoAlfian from '../assets/anggota/alfian.jpeg'
+
 
 export default function Anggota() {
   const [filter, setFilter] = useState('Semua')
@@ -96,7 +101,8 @@ export default function Anggota() {
       peran: "Bidang Lingkungan & Kesehatan",
       divisi: "Koor. Humas",
       kategori: "Bidang",
-      avatarSeed: "Fathur"
+      avatarSeed: "Fathur",
+      foto: fotoFathur
     },
     {
       nama: "Alfian Abdullah Maulana",
@@ -105,7 +111,8 @@ export default function Anggota() {
       peran: "Bidang Lingkungan & Kesehatan",
       divisi: "Koor. Keamanan",
       kategori: "Bidang",
-      avatarSeed: "Alfian"
+      avatarSeed: "Alfian",
+      foto: fotoAlfian
     },
 
     // Bidang Sosial dan Kewirausahaan
@@ -165,7 +172,8 @@ export default function Anggota() {
       peran: "Bidang Organisasi & Kepemudaan",
       divisi: "-",
       kategori: "Bidang",
-      avatarSeed: "Agung"
+      avatarSeed: "Agung",
+      foto: fotoAgung
     }
   ]
 

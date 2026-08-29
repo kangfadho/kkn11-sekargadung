@@ -20,6 +20,8 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-stone-600">
           <a href="#hero" className="hover:text-[#4A6B3C] transition-colors">Beranda</a>
           <a href="#proker" className="hover:text-[#4A6B3C] transition-colors">Program Kerja</a>
+          <a href="#galeri" className="hover:text-[#4A6B3C] transition-colors">Galeri</a>
+          <a href="#lokasi" className="hover:text-[#4A6B3C] transition-colors">Lokasi</a>
           <a href="#anggota" className="hover:text-[#4A6B3C] transition-colors">Anggota</a>
         </div>
 
