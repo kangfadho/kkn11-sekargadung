@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import fotoFadho from '../assets/anggota/fadho.jpg'
+import fotoUsman from '../assets/anggota/usman.jpeg'
+import fotoAfiq1 from '../assets/anggota/afiq1.jpeg'
 
 export default function Anggota() {
   const [filter, setFilter] = useState('Semua')
@@ -13,7 +15,8 @@ export default function Anggota() {
       peran: "Koordinator Desa (Kordes)",
       divisi: "-",
       kategori: "BPH",
-      avatarSeed: "Usman"
+      avatarSeed: "Usman",
+      foto: fotoUsman
     },
     {
       nama: "Muhammad Afiq Saputro",
@@ -22,7 +25,8 @@ export default function Anggota() {
       peran: "Wakil Kordes",
       divisi: "-",
       kategori: "BPH",
-      avatarSeed: "Afiq"
+      avatarSeed: "Afiq",
+      foto: fotoAfiq1
     },
     {
       nama: "Reina Safinah An Najah",

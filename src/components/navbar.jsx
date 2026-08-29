@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* Menu Navigasi Desktop */}
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-stone-600">
           <a href="#hero" className="hover:text-[#4A6B3C] transition-colors">Beranda</a>
-          <a href="#profil" className="hover:text-[#4A6B3C] transition-colors">Profil Desa</a>
+          <a href="#proker" className="hover:text-[#4A6B3C] transition-colors">Program Kerja</a>
           <a href="#anggota" className="hover:text-[#4A6B3C] transition-colors">Anggota</a>
         </div>
 
