@@ -11,7 +11,7 @@ export default function Hero() {
           Mengabdi & Berdaya Bersama <span className="text-[#8B5E3C]">Desa Sekargadung</span>
         </h1>
         <p className="text-stone-600 text-base sm:text-lg mb-8 leading-relaxed">
-          Wadah dokumentasi resmi kegiatan pemberdayaan masyarakat, pengabdian, dan edukasi mahasiswa KKN Kelompok 11 Dukun - Gresik.
+          Wadah dokumentasi resmi kegiatan pemberdayaan masyarakat, pengabdian, dan edukasi mahasiswa KKN Kelompok 11 Universitas Qomaruddin - Gresik.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
           <a 
