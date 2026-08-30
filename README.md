@@ -1,16 +1,37 @@
-# React + Vite
+# 🌾 Website Resmi KKN Kelompok 11 — Desa Sekargadung
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wadah informasi, dokumentasi kegiatan, dan publikasi program kerja **KKN Kelompok 11 Universitas Qomaruddin** di Desa Sekargadung, Kecamatan Dukun, Kabupaten Gresik.
 
-Currently, two official plugins are available:
+![Preview Website](public/anggota/fadho.jpg) <!-- Opsional: ganti dengan screenshot website kalau ada -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Fitur Utama Website
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Beranda (Hero Section):** Pengenalan utama KKN 11 dan sambutan pengabdian.
+- **Profil Desa:** Informasi ringkas seputar Desa Sekargadung, Kec. Dukun, Gresik.
+- **Program Kerja:** Listing proker unggulan yang dijalankan oleh tim KKN.
+- **Galeri Dokumentasi:** Galeri foto interaktif yang dilengkapi *filter kategori* dan *modal lightbox*.
+- **Peta Lokasi:** Google Maps terintegrasi presisi menggunakan Plus Code Desa Sekargadung.
+- **Profil Anggota:** Card pengenalan seluruh mahasiswa KKN Kelompok 11.
+- **Responsive Navigation:** Tampilan seamless untuk layar Laptop maupun HP (Mobile Hamburger Menu).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Teknologi yang Digunakan
+
+- **Framework:** [React.js](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 💻 Panduan Pengembangan Lokal
+
+Ingin menjalankan website ini di komputer lokal? Ikuti langkah-langkah berikut:
+
+### 1. Clone Repository
+```bash
+git clone [https://github.com/kangfadho/kkn11-sekargadung.git](https://github.com/kangfadho/kkn11-sekargadung.git)
+cd kkn11-sekargadung
