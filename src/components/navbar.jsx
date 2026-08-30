@@ -4,6 +4,7 @@ import logoKampus from '../assets/logo-kampus.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  
 
   return (
     <nav className="bg-[#FAF8F5]/90 backdrop-blur-md sticky top-0 z-50 border-b border-stone-200/70">
@@ -77,12 +78,20 @@ export default function Navbar() {
           >
             Beranda
           </a>
+          
           <a 
-            href="#profil" 
+            href="#proker" 
             onClick={() => setIsOpen(false)} 
             className="block text-sm font-medium text-stone-700 hover:text-[#4A6B3C] py-1"
           >
-            Profil Desa
+            Program Kerja
+          </a>
+          <a 
+            href="#galeri" 
+            onClick={() => setIsOpen(false)} 
+            className="block text-sm font-medium text-stone-700 hover:text-[#4A6B3C] py-1"
+          >
+            Galeri
           </a>
           <a 
             href="#anggota" 
