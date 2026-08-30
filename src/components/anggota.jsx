@@ -6,6 +6,7 @@ import fotoDimas from '../assets/anggota/dimas.jpeg'
 import fotoAgung from '../assets/anggota/agung.jpeg'
 import fotoFathur from '../assets/anggota/fathur.jpeg'
 import fotoAlfian from '../assets/anggota/alfian.jpeg'
+import fotoLabib from '../assets/anggota/labib.jpeg'
 
 
 export default function Anggota() {
@@ -152,7 +153,8 @@ export default function Anggota() {
       peran: "Bidang Keagamaan",
       divisi: "-",
       kategori: "Bidang",
-      avatarSeed: "Labib"
+      avatarSeed: "Labib",
+      foto: fotoLabib
     },
 
     // Bidang Organisasi dan Kepemudaan
@@ -163,7 +165,8 @@ export default function Anggota() {
       peran: "Bidang Organisasi & Kepemudaan",
       divisi: "Koor. Perkab",
       kategori: "Bidang",
-      avatarSeed: "Dimas"
+      avatarSeed: "Dimas",
+      foto: fotoDimas
     },
     {
       nama: "Muhammad Agung Khoirul Yani",
