@@ -94,6 +94,13 @@ export default function Navbar() {
             Galeri
           </a>
           <a 
+            href="#lokasi"
+            onClick={() => setIsOpen(false)}
+            className="block text-sm font-medium text-stone-700 hover:text-[#4A6B3C] py-1"
+          >
+            Lokasi
+          </a>
+          <a 
             href="#anggota" 
             onClick={() => setIsOpen(false)} 
             className="block text-sm font-medium text-stone-700 hover:text-[#4A6B3C] py-1"
