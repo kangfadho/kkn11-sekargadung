@@ -36,5 +36,5 @@ Ingin menjalankan website ini di komputer lokal? Ikuti langkah-langkah berikut:
 git clone [https://github.com/kangfadho/kkn11-sekargadung.git](https://github.com/kangfadho/kkn11-sekargadung.git)
 cd kkn11-sekargadung
 
-📌 *Bagi yang ingin melihat Dokumentasi Teknis & Alur Pengembangan (Developer Guide), silakan baca di berkas [DEVELOPER.md](DEVELOPER.md).*
 ---
+📌 *Bagi yang ingin melihat Dokumentasi Teknis & Alur Pengembangan (Developer Guide), silakan baca di berkas [DEVELOPER.md](DEVELOPER.md).*
