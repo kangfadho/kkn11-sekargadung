@@ -4,6 +4,7 @@ Wadah informasi, dokumentasi kegiatan, dan publikasi program kerja **KKN Kelompo
 
 ![Preview Website](public/anggota/fadho.jpg) <!-- Opsional: ganti dengan screenshot website kalau ada -->
 
+📌 *Bagi yang ingin melihat Dokumentasi Teknis & Alur Pengembangan (Developer Guide), silakan baca di berkas [DEVELOPER.md](DEVELOPER.md).*
 ---
 
 ## 🚀 Fitur Utama Website
@@ -37,4 +38,3 @@ git clone [https://github.com/kangfadho/kkn11-sekargadung.git](https://github.co
 cd kkn11-sekargadung
 
 ---
-📌 *Bagi yang ingin melihat Dokumentasi Teknis & Alur Pengembangan (Developer Guide), silakan baca di berkas [DEVELOPER.md](DEVELOPER.md).*
