@@ -1,4 +1,6 @@
+// lokasi file: src/components/hero.jsx
 import { ArrowRight, Leaf } from 'lucide-react'
+import FotoAwal from '../assets/foto-awal.jpeg'
 
 export default function Hero() {
   return (
@@ -30,8 +32,12 @@ export default function Hero() {
       </div>
 
       <div className="relative">
-        <div className="w-full h-80 sm:h-96 bg-stone-200/60 rounded-2xl overflow-hidden border border-stone-200 flex items-center justify-center text-stone-400">
-          <span className="text-sm font-medium">Slot Foto Banner Kelompok</span>
+        <div className="w-full h-80 sm:h-96">
+          <img 
+            src={FotoAwal} 
+            alt="Foto Kelompok KKN 11 Sekargadung" 
+            className="w-full h-full object-cover rounded-2xl"
+          />
         </div>
       </div>
     </section>

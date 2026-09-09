@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+
 export default function Galeri() {
   const [filter, setFilter] = useState('Semua')
   const [selectedImg, setSelectedImg] = useState(null)
