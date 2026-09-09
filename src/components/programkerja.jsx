@@ -1,32 +1,40 @@
-import { Monitor, Trees, HeartHandshake } from 'lucide-react'
+import { Monitor, Trees, GraduationCap, QrCode, Bug, Sparkles } from 'lucide-react'
 
 export default function ProgramKerja() {
   const prokerList = [
     {
-      icon: Monitor,
-      kategori: "DIGITALISASI & TEKNOLOGI",
-      judul: "Website Official & Branding UMKM",
-      deskripsi: "Pengembangan sistem digitalisasi desa serta pendataan produk unggulan warga (hasil tambak & UMKM lokal Sekargadung).",
-      status: "Berjalan",
+      icon: QrCode,
+      kategori: "Teknologi & Ekonomi UMKM",
+      judul: "Digitalisasi & Branding UMKM Sekargadung",
+      deskripsi: "Pendataan geotagging Google Maps, pembuatan QRIS, pendampingan NIB, serta pembuatan desain banner untuk produk lokal warga.",
+      status: "Terlaksana",
+      statusColor: "bg-amber-50 text-amber-700 border-amber-200"
+    },
+    {
+      icon: Bug,
+      kategori: "Lingkungan & Pertanian",
+      judul: "GEMPITA & Spray Nyamuk Serai",
+      deskripsi: "Gerakan Emposan Pengendalian Tikus Sawah bersama kelompok tani serta pelatihan pembuatan spray anti nyamuk bahan alami.",
+      status: "Terlaksana",
       statusColor: "bg-[#4A6B3C]/10 text-[#4A6B3C] border-[#4A6B3C]/30"
     },
     {
-      icon: Trees,
-      kategori: "LINGKUNGAN & SANITASI",
-      judul: "Edukasi Pengolahan Sampah & Penghijauan",
-      deskripsi: "Program sosialisasi pemilahan sampah rumah tangga serta aksi penanaman bibit di wilayah pemukiman desa.",
+      icon: GraduationCap,
+      kategori: "Pendidikan & Keagamaan",
+      judul: "Bimbel Fonik & Pekan Ceria Al-Qur'an",
+      deskripsi: "Pendampingan belajar membaca metode fonik di posko, mengajar di sekolah lokal, serta kegiatan Pekan Ceria Al-Qur'an.",
       status: "Terlaksana",
-      statusColor: "bg-[#8B5E3C]/10 text-[#8B5E3C] border-[#8B5E3C]/30"
-    },
-    {
-      icon: HeartHandshake,
-      kategori: "PEMBERDAYAAN MASYARAKAT",
-      judul: "Bimbingan Belajar & Edukasi Kesehatan",
-      deskripsi: "Pendampingan belajar untuk anak-anak sekolah dasar dan penyuluhan pola hidup sehat bersama posyandu lokal.",
-      status: "Rencana",
       statusColor: "bg-stone-100 text-stone-600 border-stone-300"
     }
   ]
+
+  const getStatusPrefix = (status) => {
+    switch (status) {
+      case 'Terlaksana': return '✓ '
+      case 'Berjalan': return '● '
+      default: return '○ '
+    }
+  }
 
   return (
     <section id="proker" className="py-20 bg-[#FAF8F5] px-6">
@@ -49,7 +57,7 @@ export default function ProgramKerja() {
             return (
               <div 
                 key={index}
-                className="bg-white p-8 rounded-2xl border border-stone-200/80 shadow-xs flex flex-col justify-between hover:border-[#8B5E3C]/40 transition-all"
+                className="bg-white p-8 rounded-2xl border border-stone-200/80 shadow-xs flex flex-col justify-between hover:border-[#8B5E3C]/40 hover:shadow-md transition-all duration-300"
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">
@@ -57,7 +65,7 @@ export default function ProgramKerja() {
                       <IconComponent size={24} />
                     </div>
                     <span className={`text-xs font-semibold px-2.5 py-1 rounded-full border ${item.statusColor}`}>
-                      ✓ {item.status}
+                      {getStatusPrefix(item.status)}{item.status}
                     </span>
                   </div>
                   <span className="text-xs font-bold text-[#4A6B3C] uppercase tracking-wider block mb-2">
