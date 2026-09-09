@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import 
+import ttgBulek01 from '../assets/program-kerja/TTG/ttg_bulek01.jpeg';
+import ttgBulek02 from '../assets/program-kerja/TTG/ttg_bulek02.jpeg';
 
 
 export default function Galeri() {
@@ -13,14 +14,14 @@ export default function Galeri() {
       judul: "Pembukaan & Penerimaan KKN 11",
       kategori: "Acara Utama",
       tanggal: "01 Agustus 2026",
-      src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800"
+      src: ttgBulek01 // Ganti dengan path lokal atau URL gambar
     },
     {
       id: 2,
       judul: "Sosialisasi Digitalisasi UMKM Desa",
       kategori: "Proker",
       tanggal: "05 Agustus 2026",
-      src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+      src: ttgBulek02 // Ganti dengan path lokal atau URL gambar
     },
     {
       id: 3,

@@ -2,11 +2,16 @@ import { useState } from 'react'
 import fotoFadho from '../assets/anggota/fadho.jpg'
 import fotoUsman from '../assets/anggota/usman.jpeg'
 import fotoAfiq1 from '../assets/anggota/afiq1.jpeg'
+import fotoAfiq2 from '../assets/anggota/afiq2.jpeg'
 import fotoDimas from '../assets/anggota/dimas.jpeg'
 import fotoAgung from '../assets/anggota/agung.jpeg'
 import fotoFathur from '../assets/anggota/fathur.jpeg'
 import fotoAlfian from '../assets/anggota/alfian.jpeg'
 import fotoLabib from '../assets/anggota/labib.jpeg'
+import fotoPutri from '../assets/anggota/putri.jpeg'
+import fotoZidna from '../assets/anggota/zidna.jpeg'
+
+
 
 
 export default function Anggota() {
@@ -32,7 +37,7 @@ export default function Anggota() {
       divisi: "-",
       kategori: "BPH",
       avatarSeed: "Afiq",
-      foto: fotoAfiq1
+      foto: fotoAfiq2 
     },
     {
       nama: "Reina Safinah An Najah",
@@ -50,7 +55,8 @@ export default function Anggota() {
       peran: "Bendahara",
       divisi: "Koor. Konsumsi",
       kategori: "BPH",
-      avatarSeed: "PutriN"
+      avatarSeed: "Putri",
+      foto: fotoPutri
     },
 
     // Bidang Teknologi Tepat Guna
@@ -124,7 +130,8 @@ export default function Anggota() {
       peran: "Bidang Sosial & Kewirausahaan",
       divisi: "Koor. PDD",
       kategori: "Bidang",
-      avatarSeed: "Zidna"
+      avatarSeed: "Zidna",
+      foto: fotoZidna
     },
     {
       nama: "Amanda Uswatun Khasanah",
