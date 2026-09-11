@@ -1,4 +1,7 @@
+
+
 import { useState } from 'react'
+import pembukaan01 from '../assets/program-kerja/awal/pembukaan01.jpeg';
 import ttgBulek01 from '../assets/program-kerja/TTG/ttg_bulek01.jpeg';
 import ttgBulek02 from '../assets/program-kerja/TTG/ttg_bulek02.jpeg';
 
@@ -14,7 +17,7 @@ export default function Galeri() {
       judul: "Pembukaan & Penerimaan KKN 11",
       kategori: "Acara Utama",
       tanggal: "01 Agustus 2026",
-      src: ttgBulek01 // Ganti dengan path lokal atau URL gambar
+      src: pembukaan01 // Ganti dengan path lokal atau URL gambar
     },
     {
       id: 2,
